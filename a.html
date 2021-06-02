@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Formulario De Registro</title>
+        <link rel="stylesheet" type="text/css" href="castilo.css">
+    </head>
+    <body>
+	<div class="contenedor">
+		<form enctype="text/plain" action="blithotheme@gmail.com" class="formulario" id="formulario" method="POST" name="contact" data-netlify="true">
+			<div class="contenedor-inputs">
+				<input type="text" name="nombre" placeholder="Nombre">
+				<input type="text" name="apellido" placeholder="Apellido">
+				<input type="email" name="correo" placeholder="Correo">
+				<input type="text" name="telefono" placeholder="Telefono">
+				<input type="text" name="domicilio" placeholder="Domicilio">
+				
+
+				<div class="sexo">
+					<label class="iqqi" for="sexo">Ingrese que quiere imprimir *:</label>
+					<select class="cadena" name="sexo" id="hombre" value="B/N">
+						<option value="Blanco y negro">Blanco y Negro</option>
+						<option value="Color">Color</option>
+						</select>
+					
+				</div>
+				<label class="hol" for="archivo">SUBA SU ARCHIVO*:</label>
+				<input class="caca" type="file" name="archivo" placeholder="Archivo">
+			
+
+				<ul class="error" id="error"></ul>
+			</div>
+
+			<input type="submit" class="btn" name="registrarse" value="ENVIAR">
+		</form>
+
+	</div>
+</body>
+</html>
